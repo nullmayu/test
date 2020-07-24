@@ -1,0 +1,45 @@
+{
+  "name": "flap_ekitan",
+  "version": "1.0.0",
+  "description": "this is a test",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "pixi.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/aws-lambda": "^8.10.59",
+    "@types/pixi.js": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.28.0",
+    "@typescript-eslint/parser": "^2.28.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "netlify-lambda": "^2.0.1",
+    "prettier": "^2.0.4",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "tsc": "tsc -p .",
+    "lint": "eslint src/** --ext .ts,.tsx",
+    "lint:fix": "eslint src/** --fix --ext .js,.ts",
+    "build:webpack": "webpack",
+    "build:netlify": "netlify-lambda build src/functions/",
+    "build": "npm run build:webpack & npm run build:netlify",
+    "watch": "webpack -w",
+    "webpack": "webpack",
+    "server": "webpack-dev-server --open --mode=development",
+    "server:netlify": "netlify-lambda serve src/functions/"
+  },
+  "engines": {
+    "node": "^12.9.0"
+  },
+  "keywords": [],
+  "author": "nullmayu",
+  "license": "ISC"
+}

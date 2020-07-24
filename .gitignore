@@ -1,0 +1,4 @@
+# 特定のディレクトリのファイルを除外する
+lib-ts/
+node_modules/
+src/
