@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.4",
-    "@types/aws-lambda": "^8.10.59",
     "@types/cheerio": "^0.22.21",
     "@types/node-fetch": "^2.5.7",
     "@types/pixi.js": "^5.0.0",
