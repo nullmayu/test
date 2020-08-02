@@ -8,21 +8,25 @@
   </head>
 
   <body>
-    <h1>パタパったー（β版）</h1>
-    <div id="maincanvas"></div>
-    <div class="info">
-      <p id="state">駅探・電車時刻表のURLを入力してください</p>
+    <div id="main">
+      <header>
+        <h1>パタパったー（β版）</h1>
+      </header>
+      <div id="maincanvas"></div>
       <form>
+        <button type="button" id="geturl">パタパタする</button>
+        <button type="button" id="nexttrain">次の列車</button>
         <input
           type="url"
           id="urlform"
           placeholder="URL"
           value="https://ekitan.com/timetable/railway/line-station/262-0/d1"
         />
-        <button type="button" id="geturl">パタパタする</button>
-        <button type="button" id="nexttrain">次の列車</button>
       </form>
+      <p id="state">駅探・電車時刻表のURLを入力してください</p>
       <hr />
+    </div>
+    <div class="info">
       <p>使い方</p>
       <ol>
         <li>駅探＞電車時刻表からパタパタさせたい時刻表のページを開く</li>
@@ -31,6 +35,22 @@
         <li>次の列車ボタンでパタパタを楽しむ</li>
       </ol>
       <hr />
+      <p>お願いと注意事項</p>
+      <ul>
+        <li>
+          エラー処理の多くが未実装です。動作が停止した場合はページをリロードしてください。
+        </li>
+        <li>
+          パソコン向けのレイアウトです。スマホでも動作を確認していますが、見づらい場合があります。
+        </li>
+        <li>
+          ご意見・ご感想等あればクソリプしてください。お待ちしております。
+        </li>
+      </ul>
+      <hr />
+      <footer>
+        <p>Posted by numakaze</p>
+      </footer>
     </div>
   </body>
 </html>

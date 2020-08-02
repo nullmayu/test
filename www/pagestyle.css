@@ -8,13 +8,13 @@
 }
 
 h1 {
-  margin: 10px 5px;
+  margin: 10px 10px;
 }
 
 p,
 li,
 form {
-  margin: 0px 5px;
+  margin: 0px 10px;
 }
 button {
   font-size: 20px;
@@ -36,12 +36,12 @@ hr {
   margin: 10px 0px;
 }
 
-ol {
-  padding: 0px 25px;
+ul,ol {
+  padding: 10px 25px;
 }
 
 .info {
-  margin: 5px;
+  margin: 10px;
 }
 
 #maincanvas {
