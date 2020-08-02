@@ -1,17 +1,27 @@
 @charset "UTF-8";
+
 * {
-  padding: 0;
-  outline: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: "sans-serif";
   color: #000000;
 }
 
-canvas {
-  position: absolute;
+#urlform {
+  margin:5px;
+  width: 80%;
   display: block;
+}
+
+button {
+  font-size: 20px;
+  min-width: 200px;
+}
+
+canvas {
+  /*display: block;*/
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
 }

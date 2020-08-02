@@ -2,16 +2,25 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>パタパタジェネレータ</title>
-    <link rel="stylesheet" href="pagestyle.css" type="text/css">
+    <title>パタパったー</title>
+    <link rel="stylesheet" href="pagestyle.css" type="text/css" />
     <script type="text/javascript" src="./index.js"></script>
   </head>
+
   <body>
+    <h1>パタパったー（β版）</h1>
+    <div id="maincanvas"></div>
+    <p id="state">駅探・電車時刻表のURLを入力してください</p>
     <form>
-      <input type="url" id="urlform" aria-label="URL" value="https://ekitan.com/timetable/railway/line-station/262-0/d1">
-      <button type="button" id="geturl">送信</button>
+      <input
+        type="url"
+        id="urlform"
+        placeholder="URL"
+        value="https://ekitan.com/timetable/railway/line-station/262-0/d1"
+      />
+      <button type="button" id="geturl">パタパタする</button>
       <button type="button" id="nexttrain">次の列車</button>
     </form>
-    <p id="state">駅探・電車時刻表のURLを入力してください</p>
+    <hr />
   </body>
 </html>
