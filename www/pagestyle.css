@@ -7,12 +7,15 @@
   color: #000000;
 }
 
-#urlform {
-  margin:5px;
-  width: 80%;
-  display: block;
+h1 {
+  margin: 10px 5px;
 }
 
+p,
+li,
+form {
+  margin: 0px 5px;
+}
 button {
   font-size: 20px;
   min-width: 200px;
@@ -24,4 +27,29 @@ canvas {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #000000;
+  margin: 10px 0px;
+}
+
+ol {
+  padding: 0px 25px;
+}
+
+.info {
+  margin: 5px;
+}
+
+#maincanvas {
+  width: 100%;
+}
+
+#urlform {
+  margin: 5px 0px;
+  width: 80%;
+  display: block;
 }
