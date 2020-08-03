@@ -16,6 +16,7 @@ li,
 form {
   margin: 0px 10px;
 }
+
 button {
   font-size: 20px;
   min-width: 200px;
@@ -36,7 +37,8 @@ hr {
   margin: 10px 0px;
 }
 
-ul,ol {
+ul,
+ol {
   padding: 10px 25px;
 }
 
